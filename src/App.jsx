@@ -3,9 +3,9 @@ import Header from "./components/header"
 
 const FILMES_INICIAIS = [
   { id: 1, titulo: "Interstellar", genero: "Ficção Científica", emoji: "🚀", favorito: false },
-  { id: 2, titulo: "The Batman", genero: "Ação / Policial", emoji: "🦇", favorito: false },
-  { id: 3, titulo: "Spider-Man", genero: "Animação / Ação", emoji: "🕷️", favorito: false },
-  { id: 4, titulo: "Stranger Things", genero: "Série / Terror", emoji: "👾", favorito: false },
+  { id: 2, titulo: "Homem Aranha", genero: "Ação", emoji: "🕷️", favorito: false },
+  { id: 3, titulo: "Titanic", genero: "Romance", emoji: "🚢", favorito: false },
+  { id: 4, titulo: "The Mentalist", genero: "Série/Policial", emoji: "🕵️", favorito: false },
 ];
 
 export function App() {
