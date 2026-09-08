@@ -1,15 +1,10 @@
-export default function Header({ tema, toggleTema }){
+export  function Header({tema, toggleTema}){
     return(
-        <div className="container">
-            <div>
-                <h1>Cine<strong>sTu</strong></h1>
-
-                <button className="btn-theme" onClick={toggleTema}>
-
-                    {tema === "light" ? "dark" : "light"}
-                </button>
-            </div>
-
+        <div className="header-container">
+            <h1>Cine<span>Estu</span></h1>
+            <button className="btn-theme" onClick={toggleTema}>
+                {tema === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+            </button>
         </div>
     )
 }

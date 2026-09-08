@@ -1,11 +1,15 @@
-import { useEffect, useState } from 'react'
-import Header from "./components/header"
+import { useState, useEffect } from "react";
+import { Header } from "./components/Header";
+import { MovieCard } from "./components/MovieCard";
+import "./App.css";
 
 const FILMES_INICIAIS = [
   { id: 1, titulo: "Interstellar", genero: "Ficção Científica", emoji: "🚀", favorito: false },
-  { id: 2, titulo: "Homem Aranha", genero: "Ação", emoji: "🕷️", favorito: false },
-  { id: 3, titulo: "Titanic", genero: "Romance", emoji: "🚢", favorito: false },
-  { id: 4, titulo: "The Mentalist", genero: "Série/Policial", emoji: "🕵️", favorito: false },
+  { id: 2, titulo: "Titanic", genero: "Romance", emoji: "🚢", favorito: false },
+  { id: 3, titulo: "Spider-Man", genero: "Animação / Ação", emoji: "🕷️", favorito: false },
+  { id: 4, titulo: "The Mentalist", genero: "Série / Investigação", emoji: "🕵️", favorito: false },
+  { id: 5, titulo: "Julie and The Phantoms", genero: "Série / Fantasia", emoji: "👻", favorito: false },
+  { id: 6, titulo: "La La Land", genero: "Romance", emoji: "🎹", favorito: false },
 ];
 
 export function App() {
