@@ -40,7 +40,7 @@ export function App() {
           <p>Favoritos selecionados: <strong>{totalFavoritos}</strong></p>
         </div>
 
-        {/* <div className="movies-grid">
+        <div className="movies-grid">
           {filmes.map((filme) => (
             <MovieCard
               key={filme.id}
@@ -48,7 +48,7 @@ export function App() {
               onToggleFavorito={toggleFavorito}
             />
           ))}
-        </div> */}
+        </div>
       </main>
     </div>
   );

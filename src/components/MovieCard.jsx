@@ -1,4 +1,4 @@
-export default MovieCard({filme, onToggleFavorito}){
+export default MovieCard({filme, onToggleFavorito});{
     return (
         <div className="movie-card">
             <div className="poster-box">
